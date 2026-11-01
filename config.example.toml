@@ -1,0 +1,11 @@
+# Copy this file to config.toml and fill in your values.
+
+db_path = "hotfeed.db"
+markdown_dir = "reports"
+
+[linux_do]
+# Copy the `_t` cookie value from a logged-in browser session.
+# DevTools -> Application -> Cookies -> https://linux.do -> `_t`
+cookie = ""
+# top period: daily / weekly / monthly / quarterly / yearly / all
+period = "weekly"
