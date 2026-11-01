@@ -101,7 +101,7 @@ hotfeed run --site v2ex
 hotfeed run --markdown
 
 # 只抓取展示，不写数据库
-hotfeed run --save=false
+hotfeed run --no-save
 
 # 查询本地数据库中最近一次快照（按热度排序）
 hotfeed show --limit 20
